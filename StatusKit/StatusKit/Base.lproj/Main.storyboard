@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StatusKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFO-zC-lPa">
+                                <rect key="frame" x="8" y="60" width="359" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="mTF-zi-cof"/>
+                                </constraints>
+                                <state key="normal" title="这是一个警告！"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fUT-yO-h6r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3Z-Jj-OVR">
+                                <rect key="frame" x="8" y="112" width="359" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4nu-Va-qvC"/>
+                                </constraints>
+                                <state key="normal" title="出现了错误：设备断开连接"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FzE-K3-Ora"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91h-Gp-d6d">
+                                <rect key="frame" x="8" y="164" width="359" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="N7J-uF-r0c"/>
+                                </constraints>
+                                <state key="normal" title="出现错误：nkdfaldsnfklsandklfndklngkdasfkldnsafklnaskldfnlksadnfkldnsaklfdksafaksdlfdksa"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJg-d1-S5x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIk-3p-j3J">
+                                <rect key="frame" x="8" y="216" width="359" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="x1a-33-HGB"/>
+                                </constraints>
+                                <state key="normal" title="100%"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQO-mj-ow9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZo-2n-HWX">
+                                <rect key="frame" x="8" y="268" width="359" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="h9d-Ip-o9a"/>
+                                </constraints>
+                                <state key="normal" title="99.99%"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y1q-2n-yJC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRm-Pu-nB3">
+                                <rect key="frame" x="8" y="320" width="359" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="i0Y-pI-fld"/>
+                                </constraints>
+                                <state key="normal" title="状态栏红色警报"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g6p-GT-EQo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOG-Au-ai9">
+                                <rect key="frame" x="8" y="372" width="359" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="h4d-a3-gFV"/>
+                                </constraints>
+                                <state key="normal" title="状态栏黄色警报"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jSI-yR-U2z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUd-aM-46k">
+                                <rect key="frame" x="8" y="424" width="359" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="nTp-CJ-bHh"/>
+                                </constraints>
+                                <state key="normal" title="消除状态栏警报"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hav-Ah-qBb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cRm-Pu-nB3" secondAttribute="trailing" constant="8" id="0VZ-ch-Yea"/>
+                            <constraint firstItem="FUd-aM-46k" firstAttribute="top" secondItem="NOG-Au-ai9" secondAttribute="bottom" constant="8" id="6Im-nt-3p2"/>
+                            <constraint firstItem="j3Z-Jj-OVR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="7oP-1h-P6f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FUd-aM-46k" secondAttribute="trailing" constant="8" id="B76-c9-NCS"/>
+                            <constraint firstItem="cRm-Pu-nB3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="BPh-3J-q3I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dZo-2n-HWX" secondAttribute="trailing" constant="8" id="Ba6-Fr-sfW"/>
+                            <constraint firstItem="NOG-Au-ai9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="GID-F5-5fo"/>
+                            <constraint firstItem="VFO-zC-lPa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="I3t-F2-mbg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iIk-3p-j3J" secondAttribute="trailing" constant="8" id="Qwz-xs-srg"/>
+                            <constraint firstItem="FUd-aM-46k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="WCD-oZ-pd7"/>
+                            <constraint firstItem="iIk-3p-j3J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="XRI-o1-0vM"/>
+                            <constraint firstItem="dZo-2n-HWX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="YCP-b2-Aay"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j3Z-Jj-OVR" secondAttribute="trailing" constant="8" id="bjM-Xj-QGj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NOG-Au-ai9" secondAttribute="trailing" constant="8" id="cbI-ry-K0F"/>
+                            <constraint firstItem="VFO-zC-lPa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="gxH-UD-rA5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VFO-zC-lPa" secondAttribute="trailing" constant="8" id="jrc-ON-d8L"/>
+                            <constraint firstItem="91h-Gp-d6d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="q9i-8I-LkC"/>
+                            <constraint firstItem="cRm-Pu-nB3" firstAttribute="top" secondItem="dZo-2n-HWX" secondAttribute="bottom" constant="8" id="sBK-pw-BXH"/>
+                            <constraint firstItem="iIk-3p-j3J" firstAttribute="top" secondItem="91h-Gp-d6d" secondAttribute="bottom" constant="8" id="vis-2Y-knu"/>
+                            <constraint firstItem="NOG-Au-ai9" firstAttribute="top" secondItem="cRm-Pu-nB3" secondAttribute="bottom" constant="8" id="xcf-WS-dtH"/>
+                            <constraint firstItem="91h-Gp-d6d" firstAttribute="top" secondItem="j3Z-Jj-OVR" secondAttribute="bottom" constant="8" id="xpB-eL-1jY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="91h-Gp-d6d" secondAttribute="trailing" constant="8" id="xzu-9J-isN"/>
+                            <constraint firstItem="j3Z-Jj-OVR" firstAttribute="top" secondItem="VFO-zC-lPa" secondAttribute="bottom" constant="8" id="ypQ-D8-rXE"/>
+                            <constraint firstItem="dZo-2n-HWX" firstAttribute="top" secondItem="iIk-3p-j3J" secondAttribute="bottom" constant="8" id="zgt-WO-q02"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
